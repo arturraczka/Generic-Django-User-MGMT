@@ -1,7 +1,5 @@
-from django.contrib import admin
 from django.urls import path, include
 from .views import home, CreateAccountView
-# from .views import home, CreateAccountView, UserLoginView, UserLogoutView
 from django.contrib.auth.views import LoginView, LogoutView
 from django.contrib.auth.views import (
     PasswordChangeDoneView,
